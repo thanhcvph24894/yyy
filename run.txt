@@ -1,0 +1,4 @@
+cd android && ./gradlew clean
+cd ..
+yarn start --reset-cache
+yarn android
