@@ -274,6 +274,9 @@ exports.createOrder = async (req, res) => {
             variant: item.variant || {} 
         }));
 
+        console.log(orderItems);
+        
+
         // Tính toán tổng tiền
         const totalAmount = cart.totalPrice;
         
